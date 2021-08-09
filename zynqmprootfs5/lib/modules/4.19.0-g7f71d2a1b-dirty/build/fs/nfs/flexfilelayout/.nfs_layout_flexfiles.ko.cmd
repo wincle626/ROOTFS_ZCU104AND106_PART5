@@ -1,0 +1,1 @@
+cmd_fs/nfs/flexfilelayout/nfs_layout_flexfiles.ko := ld -r  -EL  -maarch64elf -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o fs/nfs/flexfilelayout/nfs_layout_flexfiles.ko fs/nfs/flexfilelayout/nfs_layout_flexfiles.o fs/nfs/flexfilelayout/nfs_layout_flexfiles.mod.o ;  true

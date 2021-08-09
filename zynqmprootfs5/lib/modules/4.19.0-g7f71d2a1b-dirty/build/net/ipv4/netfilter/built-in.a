@@ -1,0 +1,14 @@
+!<thin>
+//                                              96        `
+nf_log_ipv4.o/
+nf_reject_ipv4.o/
+ip_tables.o/
+iptable_filter.o/
+iptable_mangle.o/
+ipt_REJECT.o/
+/0              0           0     0     644     348664    `
+/15             0           0     0     644     339656    `
+/33             0           0     0     644     501008    `
+/46             0           0     0     644     328072    `
+/64             0           0     0     644     326864    `
+/82             0           0     0     644     325424    `

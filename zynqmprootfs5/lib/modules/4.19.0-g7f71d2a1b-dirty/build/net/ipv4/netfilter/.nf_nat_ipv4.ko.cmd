@@ -1,0 +1,1 @@
+cmd_net/ipv4/netfilter/nf_nat_ipv4.ko := ld -r  -EL  -maarch64elf -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o net/ipv4/netfilter/nf_nat_ipv4.ko net/ipv4/netfilter/nf_nat_ipv4.o net/ipv4/netfilter/nf_nat_ipv4.mod.o ;  true
